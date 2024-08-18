@@ -28,9 +28,9 @@ def convert_csv_to_tls(csv_filename, TLS, notls=False):
                 variable = "[位置获取失败]"
 
             if notls:
-                formatted_ip = f"{ip}:80#{variable}-自动优选快速-[使用本节点时请勿访问/发布色情涉政等非法内容]"
+                formatted_ip = f"{ip}"
             else:
-                formatted_ip = f"{ip}:443#{variable}-自动优选"
+                formatted_ip = f"{ip}"
 
             outfile.write(formatted_ip + '\n')
 
