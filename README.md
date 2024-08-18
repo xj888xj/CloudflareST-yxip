@@ -1,1 +1,1 @@
-# CloudflareST
+# CloudflareST SpeedTest
